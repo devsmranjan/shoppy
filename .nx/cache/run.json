@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx affected:lint --files=.eslintrc.json,.nx/cache/run.json,lint-staged.config.js,package-lock.json,package.json",
+    "startTime": "2023-12-13T02:16:48.409Z",
+    "endTime": "2023-12-13T02:16:51.019Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "shoppy:lint",
+      "target": "lint",
+      "projectName": "shoppy",
+      "hash": "14293756456993122462",
+      "startTime": "2023-12-13T02:16:48.417Z",
+      "endTime": "2023-12-13T02:16:51.019Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
